@@ -9,4 +9,8 @@ function removeDuplicates(array) {
     return newArray;
 }
 
-
+/* If the index of current element in passed array is not yet in the empty newArray, 
+then it is pushed into the newArray. The indexOf method automatically removes duplicate
+values as it is looping through each element in the passed array.
+If the item is present more than once, the indexOf method returns the position of the first occurence.
+*/
